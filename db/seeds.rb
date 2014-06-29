@@ -1,6 +1,6 @@
 Product.delete_all
 # . . . 
-Product.create!(title: 'CoffeeScript'),
+Product.create!(title: 'CoffeeScript',
 	description:
 		%{<p>
 			CoffeeScript is JavaScript done right.
@@ -8,7 +8,7 @@ Product.create!(title: 'CoffeeScript'),
 	image_url: 'cs.jpg',
 	price: 39.95)
 # . . .
-Product.create!(title: 'Programming Ruby 1.9 & 2.0'),
+Product.create!(title: 'Programming Ruby 1.9 & 2.0',
 	description:
 		%{<p>
 			Ruby is the fastest growing and most exciting dynamic language
@@ -18,7 +18,7 @@ Product.create!(title: 'Programming Ruby 1.9 & 2.0'),
 	image_url: 'ruby.jpg',
 	price: 49.95)
 # . . .
-Product.create!(title: 'Rails Test Prescriptions'),
+Product.create!(title: 'Rails Test Prescriptions',
 	description:
 		%{<p>
 			Rails Test Prescriptions is a comprehensive guide to testing.
