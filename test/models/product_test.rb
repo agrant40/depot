@@ -20,7 +20,7 @@ class ProductTest < ActiveSupport::TestCase
   		product.errors[:price]
 
   	product.price = 0
-  	assert procut.invalid?
+  	assert product.invalid?
   	assert_equal ["must be greater than or equal to 0.01"],
   		product.errors[:price]
 
